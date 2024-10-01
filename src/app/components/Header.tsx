@@ -8,6 +8,7 @@ import styles from '@/app/components/Header.module.scss'
 
 import { routes, display } from '@/app/resources'
 import { person, home, about, blog, work, gallery } from '@/app/resources'
+import React from "react";
 
 type TimeDisplayProps = {
     timeZone: string;
