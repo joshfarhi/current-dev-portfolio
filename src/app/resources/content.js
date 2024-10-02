@@ -69,36 +69,48 @@ const about = {
     intro: {
         display: true,
         title: 'Introduction',
-        description: <>Selene is a Jakarta-based design engineer with a passion for transforming complex challenges into simple, elegant design solutions. Her work spans digital interfaces, interactive experiences, and the convergence of design and technology.</>
+        description: <>
+        Joshua Farhi is a Next.js front-end developer and web engineer driven by a passion for simplifying complex challenges into clean, intuitive design solutions. 
+        He excels in creating seamless user experiences through the interfaces he both builds and designs using Next.js and modern JavaScript frameworks.
+         His work also includes comprehensive SEO analysis, and he has extensive experience in Digital Design with the Adobe Creative Suite. Joshua is dedicated to blending performance optimization and responsive design to ensure fast, interactive, and visually appealing web applications.
+        </>
     },
     work: {
         display: true, // set to false to hide this section
         title: 'Work Experience',
         experiences: [
             {
-                company: 'FLY',
-                timeframe: '2022 - Present',
-                role: 'Senior Design Engineer',
+                company: 'Web Developer',
+                timeframe: '2019 - Present',
+                role: 'Freelance Full-stack Web Developer & SEO Expert',
                 achievements: [
-                    <>Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user engagement and 30% faster load times.</>,
-                    <>Spearheaded the integration of AI tools into design workflows, enabling designers to iterate 50% faster.</>
+                    <>Developed an inventory tracker using Next.js, Prisma ORM, and TypeScript, deployed on Vercel with a PostgreSQL database, leveraging ShadCN for a dynamic and responsive UI.</>,
                 ],
                 images: [ // optional: leave the array empty if you don't want to display images
                     {
                         src: '/images/projects/project-01/cover-01.jpg',
-                        alt: 'Once UI Project',
+                        alt: 'Kush Dept. Tracker',
                         width: 16,
                         height: 9
                     }
                 ]
             },
             {
-                company: 'Creativ3',
-                timeframe: '2018 - 2022',
-                role: 'Lead Designer',
+                company: 'Grandcom',
+                timeframe: 'January 2024 - May 2024',
+                role: 'Website Designer & SEO Analyst',
                 achievements: [
-                    <>Developed a design system that unified the brand across multiple platforms, improving design consistency by 40%.</>,
-                    <>Led a cross-functional team to launch a new product line, contributing to a 15% increase in overall company revenue.</>
+                    <>Performed in-depth SEO analysis for automotive industry websites, leveraging Google Search Console and tools like Ahrefs to conduct keyword research, backlink audits, and on-page optimization. This resulted in an average 60% increase in organic traffic each month and successfully ranked sites on the front page of search results.</>,
+                    <>Developed a custom WordPress template using Elementor for multiple auto retailers across Canada, integrating seamlessly with their CRM software to streamline content management. The template was designed for easy scalability, enabling consistent branding and efficient website deployment across various dealerships.</>
+                ],
+                images: [ ]
+            },
+            {
+                company: 'Pagehub',
+                timeframe: 'February 2023 - August 2023',
+                role: 'Website Designer',
+                achievements: [
+                    <>Designed responsive websites for small businesses, providing ongoing support and revisions to ensure optimal performance and user satisfaction. Focused on creating custom, scalable solutions tailored to each company's unique needs and branding.</>,
                 ],
                 images: [ ]
             }
@@ -109,12 +121,12 @@ const about = {
         title: 'Studies',
         institutions: [
             {
-                name: 'University of Jakarta',
-                description: <>Studied software engineering.</>,
+                name: 'University of North Carolina at Charlotte',
+                description: <>Studied fullstack web development and obtained a certification of completion.</>,
             },
             {
-                name: 'Build the Future',
-                description: <>Studied online marketing and personal branding.</>,
+                name: 'Central Piedmont Community College',
+                description: <>Associates in Arts</>,
             }
         ]
     },
@@ -123,17 +135,11 @@ const about = {
         title: 'Technical skills',
         skills: [
             {
-                title: 'Figma',
+                title: 'NextJs',
                 description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
                 images: [
                     {
                         src: '/images/projects/project-01/cover-02.jpg',
-                        alt: 'Project image',
-                        width: 16,
-                        height: 9
-                    },
-                    {
-                        src: '/images/projects/project-01/cover-03.jpg',
                         alt: 'Project image',
                         width: 16,
                         height: 9
