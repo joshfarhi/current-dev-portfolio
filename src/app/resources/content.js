@@ -24,12 +24,12 @@ const social = [
     {
         name: 'GitHub',
         icon: 'github',
-        link: 'https://github.com/once-ui-system/nextjs-starter',
+        link: 'https://github.com/joshfarhi',
     },
     {
         name: 'LinkedIn',
         icon: 'linkedin',
-        link: 'https://www.linkedin.com/company/once-ui/',
+        link: 'https://www.linkedin.com/in/joshua-farhi/',
     },
     {
         name: 'X',
@@ -39,7 +39,7 @@ const social = [
     {
         name: 'Email',
         icon: 'email',
-        link: 'mailto:example@gmail.com',
+        link: 'mailto:joshfarhi12@gmail.com',
     },
 ]
 
@@ -88,7 +88,7 @@ const about = {
                 ],
                 images: [ // optional: leave the array empty if you don't want to display images
                     {
-                        src: '/images/projects/project-01/cover-01.jpg',
+                        src: '/images/projects/project-01/cover-02.jpg',
                         alt: 'Kush Dept. Tracker',
                         width: 16,
                         height: 9
@@ -135,11 +135,11 @@ const about = {
         title: 'Technical skills',
         skills: [
             {
-                title: 'NextJs',
-                description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
+                title: 'Next.js Framework',
+                description: <>Deep understanding of Next.js, including server-side rendering (SSR), static site generation (SSG), dynamic routing, API routes, and middleware.</>,
                 images: [
                     {
-                        src: '/images/projects/project-01/cover-02.jpg',
+                        src: '/images/projects/project-01/Nextjs.png',
                         alt: 'Project image',
                         width: 16,
                         height: 9
@@ -147,11 +147,23 @@ const about = {
                 ]
             },
             {
-                title: 'Next.js',
-                description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+                title: 'Git Workflow',
+                description: <>Efficient collaboration in team environments, utilizing version control tools such as GitHub or GitLab for repository management, code reviews, and issue tracking.</>,
                 images: [
                     {
-                        src: '/images/projects/project-01/cover-04.png',
+                        src: '/images/projects/project-01/github-dark.png',
+                        alt: 'Project image',
+                        width: 16,
+                        height: 9
+                    },
+                ]
+            },
+            {
+                title: 'WordPress Expertise',
+                description: <>Skiled in developing custom WordPress themes using HTML, CSS, and JavaScript, ensuring that the front-end design is highly customized, fast, and SEO-optimized. I ensure that these themes are mobile-first and responsive across all devices.</>,
+                images: [
+                    {
+                        src: '/images/projects/project-01/Wordpress-Logo.png',
                         alt: 'Project image',
                         width: 16,
                         height: 9
