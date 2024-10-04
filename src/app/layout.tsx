@@ -11,6 +11,8 @@ import { Inter } from 'next/font/google'
 import { Source_Code_Pro } from 'next/font/google';
 
 import { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/react";
+
 
 export const metadata: Metadata = {
 	metadataBase: new URL('https://' + baseURL),
@@ -104,6 +106,7 @@ export default function RootLayout({ children } : RootLayoutProps) {
 						fillWidth minHeight="0">
 						<RouteGuard>
 							{children}
+							<Analytics />
 						</RouteGuard>
 					</Flex>
 				</Flex>
