@@ -21,7 +21,7 @@ team:
 
 ## Overview
 
-For this project, I developed a comprehensive inventory management system aimed at streamlining data handling and enhancing user interactions. The core technologies used were Next.js for server-side rendering and dynamic routing, Prisma ORM for seamless database management with PostgreSQL, and Tailwind CSS combined with ShadCN UI library to build a responsive, visually appealing interface.
+Trackr is an **inventory management application** built specifically for the cannabis industry, providing **real-time tracking**, **detailed item management**, and comprehensive reporting features. Developed with a modern tech stack including **Next.js 14**, **Clerk Auth**, **Tailwind CSS**, and **Prisma**, the app aims to combine **robust security** with **intuitive usability**, allowing cannabis businesses to **efficiently manage** their inventory processes. By offering **real-time inventory tracking** and **insightful analytics**, Trackr is designed to meet the **unique regulatory** and **operational needs** of the **cannabis sector**.
 
 
 ## Key Features
@@ -33,19 +33,21 @@ For this project, I developed a comprehensive inventory management system aimed 
 
 ## Technologies Used
 
-- **Figma API**: For extracting design tokens and component data directly from the Figma designs.
-- **React and Next.js**: For building the front-end codebase with clean, reusable components.
-- **Styled-Components**: For managing styles dynamically using design tokens.
-- **GitHub Actions**: For automating the pipeline and syncing design changes to the repository.
+- **Next.js 14 and React**: These technologies were used for building the front-end codebase, enabling the creation of clean, reusable components that provide a seamless and responsive user experience. The combination of React’s component-based architecture with Next.js’s server-side rendering capabilities helped in achieving optimal performance and SEO.
+- **Tailwind CSS**: Utilized for managing styles dynamically, ensuring a consistent and visually appealing UI throughout the application. It allowed the development team to build custom, responsive designs quickly while maintaining design consistency.
+- **Clerk Authentication**: Clerk was integrated to handle secure user authentication, allowing users to log in and manage inventory securely. By using Clerk, Trackr ensures that user data remains protected, providing a seamless yet highly secure onboarding experience for users.
+- **Prisma**: Used to manage database interactions, specifically to handle complex data relationships between growers, products, and transactions. Prisma’s schema-driven approach allowed for clear modeling of business requirements, while simplifying database operations and ensuring data integrity.
+- **PostgreSQL on Vercel**: Trackr uses PostgreSQL as its primary database, hosted on Vercel, to ensure scalable and reliable backend data storage. This setup provides high availability and helps maintain data integrity while scaling with the application’s growing needs.
+- **GitHub Actions**: Utilized for automating development workflows, including testing, building, and deploying updates to the application. This has streamlined the development process and helped maintain a high quality of code.
 
 ## Challenges and Learnings
 
-One of the biggest challenges was ensuring that the generated code was clean and maintainable. This involved setting up intelligent mapping between Figma components and React code structures, as well as managing edge cases like responsive design and conditional rendering. Additionally, the continuous synchronization required a robust error-handling system to prevent conflicts during development.
+The main challenges were managing complex relational data, securing user authentication, and maintaining high performance for real-time data updates. Prisma's schema capabilities allowed effective modeling of relationships between growers, products, and transactions. Clerk Auth was used for seamless, secure user flows, while Next.js optimizations ensured efficient data fetching and system responsiveness under heavy load.
 
 ## Outcome
 
-The automated Figma to code pipeline has streamlined the handoff process, cutting down design-to-development time by 40%. Designers now have more confidence that their designs will be accurately translated into code, and developers can focus on more complex logic and feature development. This project has proven the value of automation in bridging the gap between design and development.
+Trackr successfully provides the ability to efficiently track inventory, manage orders, and handle returns. The intuitive UI, combined with QR code implementation for quick product scanning and tracking, has led to greater operational transparency, efficiency, and ease of use. The enhanced reporting features provide actionable insights that allow businesses to make informed decisions about inventory levels, supplier performance, and overall operational efficiency. As a result, Kush Dept has been able to reduce errors, streamline their inventory management processes, and save valuable time and resources. These tangible benefits make Trackr a crucial tool for businesses in the cannabis industry.
 
 ---
 
-This project demonstrates your ability to leverage automation and streamline workflows, which is highly relevant for design engineering portfolios focused on efficiency and innovation.
+We have ambitious plans for future expansion. Additional features, such as automated product imports, are in development to further simplify inventory processes. Extended reporting options are also being considered to offer more in-depth analysis capabilities, allowing businesses to better understand sales trends and optimize stock levels. Broader integration with third-party services, including point-of-sale systems and compliance platforms, is also on the roadmap to make Trackr even more versatile and valuable to cannabis businesses. By focusing on these areas, Trackr aims to become a comprehensive solution that covers all aspects of inventory management, helping cannabis businesses grow and thrive in a competitive market.
