@@ -5,7 +5,7 @@ const routes = {
     '/about':   true,
     '/work':    true,
     '/blog':    true,
-    '/gallery': true,
+    '/gallery': false,
 }
 
 // Enable password protection on selected routes
@@ -24,12 +24,12 @@ const style = {
     theme:       'dark',         // dark | light
     neutral:     'gray',         // sand | gray | slate
     brand:       'aqua',         // blue | indigo | violet | magenta | pink | red | orange | yellow | moss | green | emerald | aqua | cyan
-    accent:      'yellow',       // blue | indigo | violet | magenta | pink | red | orange | yellow | moss | green | emerald | aqua | cyan
+    accent:      'cyan',       // blue | indigo | violet | magenta | pink | red | orange | yellow | moss | green | emerald | aqua | cyan
     solid:       'contrast',     // color | contrast
-    solidStyle:  'flat',         // flat | plastic
+    solidStyle:  'plastic',         // flat | plastic
     border:      'playful',      // rounded | playful | conservative
     surface:     'translucent',  // filled | translucent
-    transition:  'all'           // all | micro | macro
+    transition:  'macro'           // all | micro | macro
 }
 
 const display = {
