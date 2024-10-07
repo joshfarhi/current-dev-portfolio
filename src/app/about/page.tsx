@@ -145,20 +145,6 @@ export default function About() {
                                 alpha="brand-weak" radius="full"
                                 fillWidth padding="4" gap="8" marginBottom="m"
                                 alignItems="center">
-                                <Flex paddingLeft="12">
-                                    <Icon
-                                        name="calendar"
-                                        onBackground="brand-weak"/>
-                                </Flex>
-                                <Flex
-                                    paddingX="8">
-                                    Schedule a call
-                                </Flex>
-                                <IconButton
-                                    href={about.calendar.link}
-                                    data-border="rounded"
-                                    variant="tertiary"
-                                    icon="chevronRight"/>
                             </Flex>
                         )}
                         <Heading
