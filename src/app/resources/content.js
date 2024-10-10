@@ -32,9 +32,9 @@ const social = [
         link: 'https://www.linkedin.com/in/joshua-farhi/',
     },
     {
-        name: 'X',
-        icon: 'x',
-        link: '',
+        name: 'Leetcode',
+        icon: 'leetcode',
+        link: 'https://leetcode.com/u/joshfarhi/',
     },
     {
         name: 'Email',
