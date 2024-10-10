@@ -9,8 +9,8 @@ const person = {
     },
     role:      'Software Engineer',
     avatar:    '/images/avatar.jpeg',
-    location:  'America/NewYork',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-    languages: ['English', 'Bahasa']  // optional: Leave the array empty if you don't want to display languages
+    location:  'America/Phoenix',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+    languages: ['English', 'Spanish']  // optional: Leave the array empty if you don't want to display languages
 }
 
 const newsletter = {

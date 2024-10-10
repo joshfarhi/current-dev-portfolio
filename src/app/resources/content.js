@@ -135,8 +135,8 @@ const about = {
         title: 'Technical skills',
         skills: [
             {
-                title: 'Next.js Framework',
-                description: <>Deep understanding of Next.js, including server-side rendering (SSR), static site generation (SSG), dynamic routing, API routes, and middleware.</>,
+                title: 'JavaScript, React, & Next.js',
+                description: <>Proficient in JavaScript and its modern frameworks, particularly React and Next.js. Experienced in building scalable web applications with server-side rendering (SSR), static site generation (SSG), dynamic routing, API routes, and middleware for seamless performance.</>,
                 images: [
                     {
                         src: '/images/projects/project-01/Nextjs.png',
@@ -147,8 +147,8 @@ const about = {
                 ]
             },
             {
-                title: 'Git Workflow',
-                description: <>Efficient collaboration in team environments, utilizing version control tools such as GitHub or GitLab for repository management, code reviews, and issue tracking.</>,
+                title: 'HTML5, CSS3, ES6, & Web Components',
+                description: <>Skilled in creating responsive, mobile-first designs using HTML5, CSS3, and ES6. Expertise in utilizing Web Components to create reusable and efficient UI components that enhance modular development.</>,
                 images: [
                     {
                         src: '/images/projects/project-01/github-dark.png',
@@ -159,8 +159,44 @@ const about = {
                 ]
             },
             {
-                title: 'WordPress Expertise',
-                description: <>Skiled in developing custom WordPress themes using HTML, CSS, and JavaScript, ensuring that the front-end design is highly customized, fast, and SEO-optimized. I ensure that these themes are mobile-first and responsive across all devices.</>,
+                title: 'API Integration (RESTful, GraphQL)',
+                description: <>Experienced in integrating RESTful and GraphQL APIs to ensure efficient communication between front-end and back-end systems, optimizing data flow and application performance.</>,
+                images: [
+                    {
+                        src: '/images/projects/project-01/Wordpress-Logo.png',
+                        alt: 'Project image',
+                        width: 16,
+                        height: 9
+                    },
+                ]
+            },
+            {
+                title: 'CI/CD, Git Workflow, & Collaboration',
+                description: <>Efficient in continuous integration and deployment (CI/CD) pipelines, along with version control using Git, GitHub, and GitLab. Collaborates effectively in team environments through peer code reviews, issue tracking, and agile methodologies like pair programming.</>,
+                images: [
+                    {
+                        src: '/images/projects/project-01/Wordpress-Logo.png',
+                        alt: 'Project image',
+                        width: 16,
+                        height: 9
+                    },
+                ]
+            },
+            {
+                title: 'UI/UX Design & Responsive Web Design',
+                description: <>Adept at crafting intuitive user interfaces and experiences with a focus on responsive web design. Ensures optimal usability across all devices, from mobile to desktop.</>,
+                images: [
+                    {
+                        src: '/images/projects/project-01/Wordpress-Logo.png',
+                        alt: 'Project image',
+                        width: 16,
+                        height: 9
+                    },
+                ]
+            },
+            {
+                title: 'Docker & AWS',
+                description: <>Proficient in deploying and managing applications using Kubernetes and Docker, ensuring scalability and stability. Experienced with AWS for cloud services and infrastructure management.</>,
                 images: [
                     {
                         src: '/images/projects/project-01/Wordpress-Logo.png',
