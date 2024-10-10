@@ -47,8 +47,8 @@ const home = {
     label: 'Home',
     title: `${person.name}'s Portfolio`,
     description: `Portfolio website showcasing my work as a ${person.role}`,
-    headline: <>Software Engineer</>,
-    subline: <>Hello! My name is Joshua Farhi and I am a Software Engineer specializing in front-end design</>
+    headline: <>Joshua Farhi | Software Engineer</>,
+    subline: <>Crafting high-performance, scalable web applications with a focus on intuitive user experiences and seamless functionality. Leveraging technologies like React, Next.js, and Docker to solve complex problems and drive business growth.</>
 }
 
 const about = {
