@@ -151,7 +151,7 @@ const about = {
                 description: <>Skilled in creating responsive, mobile-first designs using HTML5, CSS3, and ES6. Expertise in utilizing Web Components to create reusable and efficient UI components that enhance modular development.</>,
                 images: [
                     {
-                        src: '/images/projects/project-01/github-dark.png',
+                        src: '/images/projects/project-01/html-css-es-icons.png',
                         alt: 'Project image',
                         width: 16,
                         height: 9
@@ -163,7 +163,7 @@ const about = {
                 description: <>Experienced in integrating RESTful and GraphQL APIs to ensure efficient communication between front-end and back-end systems, optimizing data flow and application performance.</>,
                 images: [
                     {
-                        src: '/images/projects/project-01/Wordpress-Logo.png',
+                        src: '/images/projects/project-01/api-integration-icon.png',
                         alt: 'Project image',
                         width: 16,
                         height: 9
@@ -175,7 +175,7 @@ const about = {
                 description: <>Efficient in continuous integration and deployment (CI/CD) pipelines, along with version control using Git, GitHub, and GitLab. Collaborates effectively in team environments through peer code reviews, issue tracking, and agile methodologies like pair programming.</>,
                 images: [
                     {
-                        src: '/images/projects/project-01/Wordpress-Logo.png',
+                        src: '/images/projects/project-01/github-dark.png',
                         alt: 'Project image',
                         width: 16,
                         height: 9
@@ -187,7 +187,7 @@ const about = {
                 description: <>Adept at crafting intuitive user interfaces and experiences with a focus on responsive web design. Ensures optimal usability across all devices, from mobile to desktop.</>,
                 images: [
                     {
-                        src: '/images/projects/project-01/Wordpress-Logo.png',
+                        src: '/images/projects/project-01/responsive-websites-icon.png',
                         alt: 'Project image',
                         width: 16,
                         height: 9
@@ -199,7 +199,7 @@ const about = {
                 description: <>Proficient in deploying and managing applications using Kubernetes and Docker, ensuring scalability and stability. Experienced with AWS for cloud services and infrastructure management.</>,
                 images: [
                     {
-                        src: '/images/projects/project-01/Wordpress-Logo.png',
+                        src: '/images/projects/project-01/docker-icon.png',
                         alt: 'Project image',
                         width: 16,
                         height: 9
