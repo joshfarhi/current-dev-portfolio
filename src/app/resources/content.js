@@ -82,10 +82,11 @@ const about = {
             {
                 company: 'Web Developer',
                 timeframe: '2019 - Present',
-                role: 'Freelance Full-stack Web Developer & SEO Expert',
+                role: 'Full-stack Web Developer & SEO Expert',
                 achievements: [
                     <>Developed an inventory tracker using Next.js, Prisma ORM, and TypeScript, deployed on Vercel with a PostgreSQL database, leveraging ShadCN for a dynamic and responsive UI.</>,
-                    <>Built and deployed scalable e-commerce websites using WooCommerce, WordPress, and Shopify, integrating third-party APIs like Stripe and PayPal, optimizing for SEO and performance, and developing custom, mobile-first themes for enhanced user experience and conversion rates.</>
+                    <>Built and deployed scalable e-commerce websites using WooCommerce, WordPress, and Shopify, integrating third-party APIs like Stripe and PayPal, optimizing for SEO and performance, and developing custom, mobile-first themes for enhanced user experience and conversion rates.</>,
+                    <>Optimized automotive websites for search engines, increasing organic traffic through keyword research, on-page SEO, and technical audits. Developed content strategies and improved site structure, resulting in higher search rankings and increased lead generation for dealerships.</>
                 ],
                 images: [ // optional: leave the array empty if you don't want to display images
                     {
