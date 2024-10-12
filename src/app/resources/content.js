@@ -85,6 +85,7 @@ const about = {
                 role: 'Freelance Full-stack Web Developer & SEO Expert',
                 achievements: [
                     <>Developed an inventory tracker using Next.js, Prisma ORM, and TypeScript, deployed on Vercel with a PostgreSQL database, leveraging ShadCN for a dynamic and responsive UI.</>,
+                    <>Built and deployed scalable e-commerce websites using WooCommerce, WordPress, and Shopify, integrating third-party APIs like Stripe and PayPal, optimizing for SEO and performance, and developing custom, mobile-first themes for enhanced user experience and conversion rates.</>
                 ],
                 images: [ // optional: leave the array empty if you don't want to display images
                     {
