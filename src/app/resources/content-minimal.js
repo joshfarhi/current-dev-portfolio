@@ -48,7 +48,7 @@ const home = {
     title: `${person.name}'s Portfolio`,
     description: `Portfolio website showcasing my work as a ${person.role}`,
     headline: <>Joshua Farhi | Software Engineer</>,
-    subline: <>Crafting high-performance, scalable web applications with a focus on intuitive user experiences and seamless functionality. Leveraging technologies like React, Next.js, and Docker to solve complex problems and drive business growth.</>
+    subline: <>Building scalable, high-performance web applications focused on intuitive user experiences and seamless functionality. Expert in React, Next.js, and Docker, delivering innovative solutions that solve complex challenges and accelerate business growth.</>
 }
 
 const about = {
