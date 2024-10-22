@@ -149,7 +149,7 @@ const about = {
                 description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
                 images: [
                     {
-                        src: '/images/projects/project-01/cover-04.png',
+                        src: '/images/projects/project-01/Inventory-Tracker-Poster.png',
                         alt: 'Project image',
                         width: 16,
                         height: 9
