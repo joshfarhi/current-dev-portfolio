@@ -6,7 +6,7 @@ const person = {
     get name() {
         return `${this.firstName} ${this.lastName}`;
     },
-    role:      'Software Engineer',
+    role:      'Front-End Web Developer',
     avatar:    '/images/avatar.jpeg',
     location:  'EST',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
     languages: ['English', 'Spanish']  // optional: Leave the array empty if you don't want to display languages
@@ -47,8 +47,8 @@ const home = {
     label: 'Home',
     title: `${person.name}'s Portfolio`,
     description: `Portfolio website showcasing my work as a ${person.role}`,
-    headline: <>Joshua Farhi | Software Engineer</>,
-    subline: <>Building scalable, high-performance web applications focused on intuitive user experiences and seamless functionality. Expert in React, Next.js, and Docker, delivering innovative solutions that solve complex challenges and accelerate business growth.</>
+    headline: <>Joshua Farhi | Web Developer</>,
+    subline: <>Building scalable, high-performance web applications focused on intuitive user experiences and seamless functionality.</>
 }
 
 const about = {
@@ -70,9 +70,9 @@ const about = {
         display: true,
         title: 'Introduction',
         description: <>
-        Joshua Farhi is a Next.js front-end developer and web engineer driven by a passion for simplifying complex challenges into clean, intuitive design solutions. 
+        Joshua Farhi is a front-end developer and web engineer driven by a passion for simplifying complex challenges into clean, intuitive design solutions. 
         He excels in creating seamless user experiences through the interfaces he both builds and designs using Next.js and modern JavaScript frameworks.
-         His work also includes comprehensive SEO analysis, and he has extensive experience in Digital Design with the Adobe Creative Suite. Joshua is dedicated to blending performance optimization and responsive design to ensure fast, interactive, and visually appealing web applications.
+        His work also includes comprehensive SEO analysis, and he has extensive experience in Digital Design with the Adobe Creative Suite. Joshua is dedicated to blending performance optimization and responsive design to ensure fast, interactive, and visually appealing web applications.
         </>
     },
     work: {
