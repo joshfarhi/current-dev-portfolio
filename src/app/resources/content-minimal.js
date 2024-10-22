@@ -89,7 +89,7 @@ const about = {
                 ],
                 images: [ // optional: leave the array empty if you don't want to display images
                     {
-                        src: '/images/projects/project-01/cover-01.jpg',
+                        src: '/images/projects/project-01/Invemtory-Tracker-Poster.png',
                         alt: 'Once UI Project',
                         width: 16,
                         height: 9
