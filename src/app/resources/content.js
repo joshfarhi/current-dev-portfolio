@@ -123,11 +123,11 @@ const about = {
         title: 'Studies',
         institutions: [
             {
-                name: 'University of North Carolina at Charlotte',
+                name: 'UNCC',
                 description: <>Studied fullstack web development and obtained a certification of completion.</>,
             },
             {
-                name: 'Central Piedmont Community College',
+                name: 'Central Piedmont',
                 description: <>Associates in Arts</>,
             }
         ]
