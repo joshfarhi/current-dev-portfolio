@@ -89,7 +89,7 @@ const about = {
                 ],
                 images: [ // optional: leave the array empty if you don't want to display images
                     {
-                        src: '/images/projects/project-01/Inventory-Tracker-Poster.png',
+                        src: '/images/projects/project-01/inventrack-poster.png',
                         alt: 'Once UI Project',
                         width: 16,
                         height: 9
@@ -149,7 +149,7 @@ const about = {
                 description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
                 images: [
                     {
-                        src: '/images/projects/project-01/Inventory-Tracker-Poster.png',
+                        src: '/images/projects/project-01/inventrack-poster.png',
                         alt: 'Project image',
                         width: 16,
                         height: 9
