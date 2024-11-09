@@ -37,6 +37,11 @@ const social = [
         link: 'https://leetcode.com/u/joshfarhi/',
     },
     {
+        name: 'Great Front-End Projects',
+        icon: 'code',
+        link: 'https://www.greatfrontend.com/projects/u/j0sh',
+    },
+    {
         name: 'Email',
         icon: 'email',
         link: 'mailto:joshfarhi12@gmail.com',

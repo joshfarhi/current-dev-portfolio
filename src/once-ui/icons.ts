@@ -36,6 +36,8 @@ import {
 } from "react-icons/fa6";
 
 import { SiLeetcode } from "react-icons/si";
+import { DiCode } from "react-icons/di";
+
 
 export const iconLibrary: Record<string, IconType> = {
 	chevronUp: HiChevronUp,
@@ -64,5 +66,6 @@ export const iconLibrary: Record<string, IconType> = {
 	github: FaGithub,
 	linkedin: FaLinkedin,
 	leetcode: SiLeetcode,
+	code: DiCode,
 	x: FaXTwitter,
 };
