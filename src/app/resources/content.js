@@ -89,12 +89,7 @@ const about = {
                     <>Optimized automotive websites for search engines, increasing organic traffic through keyword research, on-page SEO, and technical audits. Developed content strategies and improved site structure, resulting in higher search rankings and increased lead generation for dealerships.</>
                 ],
                 images: [ // optional: leave the array empty if you don't want to display images
-                    {
-                        src: '/images/projects/project-01/cover-02.jpg',
-                        alt: 'Kush Dept. Tracker',
-                        width: 16,
-                        height: 9
-                    }
+                    
                 ]
             },
             {

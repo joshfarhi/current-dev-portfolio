@@ -148,12 +148,7 @@ const about = {
                 title: 'Next.js',
                 description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
                 images: [
-                    {
-                        src: '/images/projects/project-01/inventrack-poster.png',
-                        alt: 'Project image',
-                        width: 16,
-                        height: 9
-                    },
+                    
                 ]
             }
         ]

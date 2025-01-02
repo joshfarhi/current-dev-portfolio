@@ -5,7 +5,6 @@ publishedAt: "2024-10-02"
 summary: "Using Next.js, Clerk auth, and Prisma, I built a scalable dashboard for inventory management."
 images:
   - "/images/projects/project-01/inventrack-poster.png"
-  - "/images/projects/project-01/cover-02.jpg"
 team:
   - name: "Joshua Farhi"
     role: "Software Engineer & UX/UI Design"
