@@ -60,7 +60,7 @@ const about = {
         subItems: true
     },
     avatar: {
-        display: true
+        display: false
     },
     calendar: {
         display: true,
