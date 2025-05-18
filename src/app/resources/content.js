@@ -6,7 +6,7 @@ const person = {
     get name() {
         return `${this.firstName} ${this.lastName}`;
     },
-    role:      'Front-End Web Developer',
+    role:      'Full-Stack Developer',
     avatar:    '/images/gallery/IMG_3147.JPG',
     location:  'EST',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
     languages: ['English', 'Spanish']  // optional: Leave the array empty if you don't want to display languages
@@ -47,7 +47,7 @@ const home = {
     label: 'Home',
     title: `${person.name}'s Portfolio`,
     description: `Portfolio website showcasing my work as a ${person.role}`,
-    headline: <>Joshua Farhi | Web Developer</>,
+    headline: <>Joshua Farhi | Full-Stack Web Developer</>,
     subline: <>Building scalable, high-performance web applications focused on intuitive user experiences and seamless functionality.</>
 }
 
@@ -70,7 +70,7 @@ const about = {
         display: true,
         title: 'Introduction',
         description: <>
-        I'm a front-end developer and web engineer driven by a passion for simplifying complex challenges into clean, intuitive design solutions. 
+        I'm a full-stack developer and web engineer driven by a passion for simplifying complex challenges into clean, intuitive design solutions. 
         I excel in creating seamless user experiences through the interfaces I both build and design using Next.js and modern JavaScript frameworks.
         My work also includes comprehensive SEO analysis, and I have extensive experience in Digital Design with the Adobe Creative Suite. I am dedicated to blending performance optimization and responsive design to ensure fast, interactive, and visually appealing web applications.
         </>
@@ -80,7 +80,7 @@ const about = {
         title: 'Work Experience',
         experiences: [
             {
-                company: 'Web Developer',
+                company: 'Full-Stack Web Developer',
                 timeframe: '2019 - Present',
                 role: 'Full-stack Web Developer & SEO Expert',
                 achievements: [

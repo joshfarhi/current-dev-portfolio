@@ -7,7 +7,7 @@ const person = {
     get name() {
         return `${this.firstName} ${this.lastName}`;
     },
-    role:      'Front-End Web Developer',
+    role:      'Full-Stack Web Developer',
     avatar:    '/images/avatar.jpeg',
     location:  'America/NewYork',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
     languages: ['English', 'Spanish']  // optional: Leave the array empty if you don't want to display languages
@@ -80,7 +80,7 @@ const about = {
         title: 'Work Experience',
         experiences: [
             {
-                company: 'Web Developer',
+                company: 'Full-Stack Web Developer',
                 timeframe: '2019 - Present',
                 role: 'Freelance Full-stack Web Developer & SEO Expert',
                 achievements: [
