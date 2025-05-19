@@ -37,14 +37,11 @@ const TableOfContents: React.FC<TableOfContentsProps> = ({ structure, about }) =
     return (
         <Flex
             style={{
-                left: '0',
-                top: '50%',
-                transform: 'translateY(-50%)',
                 whiteSpace: 'nowrap'
             }}
-            position="fixed"
             paddingLeft="24" gap="32"
-            direction="column" hide="s">
+            direction="column"
+            >
             {structure
                 .filter(section => section.display)
                 .map((section, sectionIndex) => (

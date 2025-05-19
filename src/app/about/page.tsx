@@ -95,7 +95,9 @@ export default function About() {
             )}
             <Flex
                 fillWidth
-                mobileDirection="column" justifyContent="center">
+                mobileDirection="column" justifyContent="center"
+                className={styles.mainContentWithSidebar}
+            >
                 { about.avatar.display && (
                     <Flex
                         minWidth="160" paddingX="l" paddingBottom="xl" gap="m"

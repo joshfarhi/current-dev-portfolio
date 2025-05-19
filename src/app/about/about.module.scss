@@ -15,3 +15,13 @@
         align-self: center;
     }
 }
+
+.mainContentWithSidebar {
+  margin-left: 0;
+}
+
+@media (--m) {
+  .mainContentWithSidebar {
+    margin-left: 240px;
+  }
+}
