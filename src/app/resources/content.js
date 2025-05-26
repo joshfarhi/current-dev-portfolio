@@ -82,15 +82,17 @@ const about = {
             {
                 company: 'Full-Stack Web Developer',
                 timeframe: '2019 - Present',
-                role: 'Full-stack Web Developer & SEO Expert',
+                role: 'Freelance Full-stack Web Developer & SEO Specialist',
                 achievements: [
-                    <>Developed an inventory tracker using Next.js, Prisma ORM, and TypeScript, deployed on Vercel with a PostgreSQL database, leveraging ShadCN for a dynamic and responsive UI.</>,
-                    <>Built and deployed scalable e-commerce websites using WooCommerce, WordPress, and Shopify, integrating third-party APIs like Stripe and PayPal, optimizing for SEO and performance, and developing custom, mobile-first themes for enhanced user experience and conversion rates.</>,
-                    <>Optimized automotive websites for search engines, increasing organic traffic through keyword research, on-page SEO, and technical audits. Developed content strategies and improved site structure, resulting in higher search rankings and increased lead generation for dealerships.</>
+                    <>Built high-converting business website for Springfield Painting using Next.js and Tailwind CSS, achieving 95+ Lighthouse performance scores and implementing advanced local SEO strategies that target 50+ location-specific keywords for maximum search visibility.</>,
+                    <>Developed in-store points and kiosk system using Next.js 15, Clerk authentication, Supabase SSR, and Tailwind CSS 4. Implemented interactive UI components with Radix UI primitives, drag-and-drop functionality using DND Kit, smooth animations with Framer Motion, and particle effects for enhanced user engagement. Built with TypeScript for type safety and responsive design patterns.</>,
+                    <>Created comprehensive ingredient management application for restaurant operations using Next.js, Clerk authentication, Supabase database, and Tailwind CSS. Implemented real-time inventory tracking, automated low-stock alerts, supplier management features, and responsive dashboard interface with secure user authentication and role-based access control.</>,
+                    <>Developed automated inventory management system for Joyful Expression e-commerce site using Python scripting to import CSV files into WooCommerce, reducing manual inventory processing time by 80% while maintaining data accuracy and streamlining business operations.</>,
+                    <>Engineered responsive e-commerce platforms for Zoots Cannabis Co. using WordPress, Elementor, and WooCommerce with industry-specific compliance features, payment gateway integrations (Stripe, PayPal), and conversion-optimized checkout flows that increased online sales.</>,
+                    <>Built scalable inventory tracker application using Next.js, Prisma ORM, and TypeScript, deployed on Vercel with PostgreSQL database and ShadCN UI components, featuring real-time data synchronization and responsive dashboard interface.</>,
+                    <>Delivered comprehensive SEO optimization for automotive dealerships, achieving 60% average monthly increase in organic traffic through technical audits, keyword research with Ahrefs, and strategic content architecture improvements that consistently ranked sites on Google's first page.</>
                 ],
-                images: [ // optional: leave the array empty if you don't want to display images
-                    
-                ]
+                images: [ ]
             },
             {
                 company: 'Grandcom',
